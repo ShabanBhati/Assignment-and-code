@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form>
+    <label for="">First Name : </label>
+    <input type="text" placeholder="Enter First Name"><br>
+    <label for="">Last Name :</label>
+     <input type="text" placeholder="Enter Last Name"><br>
+     <label for="">Email : </label>
+    <input type="email" placeholder="Enter Email Address"><br>
+    <label for="">Password : </label>
+    <input type="password"><br><br>
+
+    <label for="">Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other<br><br>
+
+    <label for="Age : ">Age : </label>
+    <select>
+        <option value="">Select Age</option>
+        
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+    </select><br><br>
+
+   <label for=" Preferences :"> Preferences :</label><br>
+    <input type="checkbox" name="prefs" value="acrylic"> Acrylic Painting<br>
+    <input type="checkbox" name="prefs" value="oil"> Oil Painting<br>
+    <input type="checkbox" name="prefs" value="watercolor"> Water Color Painting<br><br>
+
+  <label for="  Select Occupation ">  Select Occupation </label>
+    <select>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="artist">Artist</option>
+        
+    </select><br>
+
+    <br>
+    <textarea rows="5" cols="30" placeholder="Share few lines about yourself..."></textarea><br><br>
+
+    <label for="Bio">Bio</label><br>
+    <input type="reset" value="RESET">
+    <input type="submit" value="SUBMIT">
+</form>
+
+</body>
+</html>
