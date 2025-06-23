@@ -1,0 +1,77 @@
+
+CSS Properties and Their Values - Detailed Explanation
+
+1. color
+   - Description: Sets the text color of an element.
+   - Example Values: red, #ff0000, rgb(255, 0, 0)
+   - Usage: color: blue;
+
+2. background-color
+   - Description: Sets the background color of an element.
+   - Example Values: yellow, #ffff00, rgba(255, 255, 0, 0.5)
+   - Usage: background-color: lightgray;
+
+3. font-size
+   - Description: Sets the size of the text.
+   - Example Values: 16px, 1em, 120%
+   - Usage: font-size: 20px;
+
+4. font-family
+   - Description: Sets the typeface of the text.
+   - Example Values: Arial, 'Times New Roman', sans-serif
+   - Usage: font-family: 'Courier New', monospace;
+
+5. margin
+   - Description: Sets the outer space of an element. Can be set in shorthand (all sides) or individually.
+   - Example Values: 10px, 1em, auto
+   - Usage: margin: 10px;
+
+6. padding
+   - Description: Sets the inner space between the content and border of an element.
+   - Example Values: 15px, 2em, 5%
+   - Usage: padding: 10px 15px;
+
+7. border
+   - Description: Sets the border around an element.
+   - Example Values: 1px solid black, 2px dashed red
+   - Usage: border: 2px solid green;
+
+8. width / height
+   - Description: Sets the width and height of an element.
+   - Example Values: 100px, 50%, auto
+   - Usage: width: 200px; height: 100px;
+
+9. display
+   - Description: Specifies the display behavior of an element.
+   - Example Values: block, inline, flex, none
+   - Usage: display: flex;
+
+10. position
+    - Description: Specifies the positioning method of an element.
+    - Example Values: static, relative, absolute, fixed, sticky
+    - Usage: position: absolute;
+
+11. text-align
+    - Description: Sets the horizontal alignment of text.
+    - Example Values: left, right, center, justify
+    - Usage: text-align: center;
+
+12. overflow
+    - Description: Specifies what happens if content overflows an element's box.
+    - Example Values: visible, hidden, scroll, auto
+    - Usage: overflow: auto;
+
+13. z-index
+    - Description: Sets the stack order of elements (higher index means on top).
+    - Example Values: 1, 9999, -1
+    - Usage: z-index: 1000;
+
+14. opacity
+    - Description: Sets the transparency level of an element.
+    - Example Values: 0 (fully transparent) to 1 (fully opaque)
+    - Usage: opacity: 0.5;
+
+15. cursor
+    - Description: Specifies the type of cursor to be displayed when pointing over an element.
+    - Example Values: pointer, default, text, wait
+    - Usage: cursor: pointer;
