@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoolLogo Template</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f5f5f5;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ccc;
+           
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #009933;
+             
+        }
+
+        .logo span {
+            color: #ccc;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        main {
+            padding: 20px;
+            
+        }
+
+        h1 {
+            color: #009933;
+            background-color: green;
+        }
+
+        .content {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        aside {
+            width: 200px;
+        }
+
+        aside h3 {
+            font-size: 16px;
+            color: #009933;
+        }
+
+        aside ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        aside li a {
+            text-decoration: none;
+            color: #009933;
+            display: block;
+            padding: 5px 0;
+        }
+
+        article {
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+
+        .highlight {
+            color: #cc0000;
+        }
+
+        .bottom-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            background: #e9f5e9;
+            padding: 30px 20px;
+            margin-top: 40px;
+        }
+
+        .box {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    .bottom-grid{
+        background-color: lightgreen;
+    }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">Cool<span>Logo</span></div>
+        <nav>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">FAQ</a>
+            <a href="#">Help</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Heading</h1>
+        <section class="content">
+            <aside>
+                <h3>Left heading</h3>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                </ul>
+            </aside>
+            <article>
+                <button>View Template Source Code</button>
+                <p>If the facts don't fit the theory, change the facts. The smaller your reality, the more convinced you
+                    are that you know everything. The past has no power over the present moment.</p>
+
+                <h3>Heading</h3>
+                <p>The most important moment of your life is now. The most important person in your life is the one you
+                    are with now.</p>
+
+                <p class="highlight">You will not be punished for your anger; you will be punished by your anger.</p>
+            </article>
+        </section>
+
+        <section class="bottom-grid">
+            <div class="box">
+                <h3>Heading</h3>
+                <p>This, too, will pass.</p>
+            </div>
+            <div class="box">
+                <h3>Heading</h3>
+                <p>You will not be punished for your anger; you will be punished by your anger.</p>
+            </div>
+            <div class="box">
+                <h3>Heading</h3>
+                <p>The past has no power over the present moment.</p>
+            </div>
+            <div class="box">
+                <h3>Heading</h3>
+                <p>The most important moment of your life is now. The most important person is the one you're with now.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
