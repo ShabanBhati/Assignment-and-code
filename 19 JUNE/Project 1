@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant site</title>
+    <style>
+        table{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>&#127836 Bella Vista Restaurant &#127836 </h1>
+    <h3><i>Authentic Italian Cuisine Since 1952</i></h3>
+    <h5>📍123 Main Street, Little Italy | 📞 (555) 123-4567
+        <hr>
+        <h4>Quick Navigation:</h4>
+        <ul>
+            <li style="color: blue;"><u>&#127843 Appetizers</u></li>
+            <li style="color: blue;"><u>&#129379 Pasta</u></li>
+            <li style="color: blue;"><u>&#127829 Pizza</u></li>
+            <li style="color: blue;"><u>&#127855 Main Courses</u></li>
+            <li style="color: blue;"><u>&#127856 Desserts</u></li>
+            <li style="color: blue;"><u>&#127863 Beverages</u></li>
+            <li style="color: blue;"><u>📞 Contact Us</u></li>
+            <li style="color: blue;"><u>📝 Make Reservations</u></li>
+        </ul>
+        <hr>
+        <div style="margin: 30px;">
+            <img width="700" src="dining.png" alt="dining image">
+            <br>
+            <i>Our beautiful dining room welcomes you</i>
+        </div>
+        <div style="text-align: center;">
+            <img width="600px" src="3 in one.png" alt="3 in one ">
+        </div>
+        <h1>About Bella Vista</h1>
+        <p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Welcome to <b>Bella Vista
+                Restaurant,</b> where tradition meets flavor in every dish. Our family has been
+            serving
+            authentic Italian cuisine for over 70 years,bringing you the finest ingredients and time-honored recipes
+            passes down through generations.</p>
+
+        <blockquote><i>"The best Italian food outside of Italy!"</i></blockquote>
+        <blockquote><i>-Food & Wine Megazine</i></blockquote>
+        <h2>🥐Appetizers</h2>
+        <table border="2px solid">
+            <tr>
+                <th><img width="250" src="Brucheta classic.png" alt="Brucheta image"></th>
+                <td><b>Brucheta Classic</b>-$12 <br>
+                Fresh tomatoes,basil,garlic on tostead bread</td>
+            </tr>
+            <tr>
+                <th><img width="250" src="Antipasto Platter.png" alt="Antipasto platter image"></th>
+                <td><b>Antipasto Platter</b>-$18 <br>
+                Selection of cured meats,cheeses,olives and vegetables</td>
+            </tr>
+            <tr>
+                <th><img width="250" src="fried calamari rings.png" alt="fried calamari rings image"></th>
+                <td><b>Calamari fritti</b>-$15
+                <br>
+            Crispy fried squid with marinara souce</td>
+            </tr>
+            <tr>
+                <th><img width="250" src="caprese salad.png" alt="salad image"></th>
+                <td><b>Caprese Salad</b>-$14
+                <br>
+            Fresh Mozzarella,tomatoes,basil with balsamic glaze</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>🥣Pasta</h2>
+        <p>All pasta is made fresh daily in our kitchen</p>
+        <table border="1px" cellspacing="0">
+            <caption><b>Our Signature Pasta Dishes</b></caption>
+            <tr>
+                <th>Dish Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Spicy Level</th>
+            </tr>
+            <tr>
+                <th>Spaghetti Carbonara</th>
+                <td>Eggs,pancake,pecorino cheese, black pepper</td>
+                <td> $22</td>
+                <td> Mild</td>
+            </tr>
+            <tr>
+                <th>Fettuccine Alfredo</th>
+                <td>Rich cream souce with parmesan cheese</td>
+                <td> $20</td>
+                <td> None</td>
+            </tr>
+            <tr>
+                <th>Penne Arrabbiata</th>
+                <td>Spicy tomato souce with garlic and red chilly</td>
+                <td> $19</td>
+                <td> 🌶️Hot</td>
+            </tr>
+            <tr>
+                <th>Lassagana Della Casa</th>
+                <td>Layers of Pasta, meat sauce and three cheeses</td>
+                <td> $24</td>
+                <td> Mild</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>🍕Wood Fired Pizza</h2>
+        <blockquote><img width="250" src="wood fired pizza.png" alt="wood fired pizza image"></blockquote>
+        <blockquote><i>Our authentic wood-fired oven reaches 900&deg;F</i></blockquote>
+        <h3><b>Traditional Pizzas</b></h3>
+
+        <ol>
+            <li><b>Margherita</b>-$16</li>
+            <img width="250" src="margherita pizza.png" alt="margherita image">
+            <ul>
+                <li>San Marzano Tomatoes</li>
+                <li>Fresh Mozzarella</li>
+                <li>Fresh Basil</li>
+                <li>Extra Virgin Olive Oil</li>
+            </ul>
+            <li><b>Pepperoni </b>-$18</li>
+            <img width="250" src="pepproni pizza.png" alt="pepperoni pizza image">
+            <ul>
+                <li>Tomato Sauce</li>
+                <li>Mozzarrella Cheese</li>
+                <li>Premium pepproni</li>
+            </ul>
+            <li><b>Quattro Stagioni</b>-$22</li>
+            <img width="250" src="quattro stagioni.png" alt="quattro image pizza">
+            <ul>
+                <li>Artichokes</li>
+                <li>Mushrooms</li>
+                <li>Ham</li>
+                <li>Olives</li>
+            </ul>
+        </ol>
+        <hr>
+        <h2>Speciality Pizza</h2>
+        <table border="1px solid">
+            <tr>
+                <th><img src="rucolo.png" alt="rucolo pizza img"></th>
+                <td><b>Prosciutto e Rucolo</b>-$24 (prociutto and arugula)</td>
+            </tr>
+            <tr>
+                <th><img src="diavolo.png" alt="diavolo pizza img"></th>
+                <td><b>Diavolo</b>-$20 (Spicy salami with hot peppers)</td>
+            </tr>
+            <tr>
+                <th><img src="vegeteriana.png" alt="vegeteriana img "></th>
+                <td><b>Vegetariana</b>-$19 (Mixed vegetables and herbs)</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>🍳Main Courses</h2>
+        <h3>Meat and Poultry</h3>
+        <p style="font-family: Arial, Helvetica, sans-serif;">All main courses served with seasonal vegetables and your choice of pasta</p>
+
+        <table border="2px solid">
+            <tr>
+                <th><img width="250" src="osso buco.png" alt="osso buco img"></th>
+                <td><b>Osso Buco</b>-$35
+                <br>
+            <i>Chefs Special</i>
+        <br>
+    Braised veal shanks in wine sauce</td>
+            </tr>
+            
+            <tr>
+                <th><img width="250" src="chicken parmigiana.png" alt="chicken parmigiana img"></th>
+                <td><b>Chicken Parmigiana</b>-$26
+                <br>
+            Breaded chicken with tomato sauce and cheese</td>
+            </tr>
+
+            <tr>
+                <th><img width="250" src="veal marsala.png" alt="veal marsala img"></th>
+                <td><b>Veal Marsala</b>-$32
+                <br>
+            Tender veal in mushroom wine sauce</td>
+            </tr>
+        </table>
+        
+        <h2>Seafood</h2>
+        <ul>
+            <li><img width="250" src="branzino.png" alt="Branzino image"></li>
+            <b>Branzino Al Sale</b>-$28
+        <br>
+    Whole sea bass baked in sea salt
+    <br> <br>
+    <li><img width="250" src="lingine.png" alt="linguine img"></li>
+    <b>Linguine Alle Vongole</b>-$25
+<br>
+    Linguine with fresh clams in white wine sauce
+    <br><br>
+    <li><img width="250" src="salmone.png" alt="salmone girgilia img"></li>
+    <b>Salmone Griglia</b>-$26
+    <br>
+    Grilled atlantic salman with lemon herbs
+            
+            
+        </ul>
+        <hr>
+        <h2>🍰 Dolci (Desserts)</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDXrxugoC42p6zZ10Kwoz-2dz6GqZdM-sBtw&s" alt="Tiramisu">
+    <p><strong>Tiramisu</strong> – $9<br>Mascarpone cream, coffee‑soaked ladyfingers</p>
+  </section>
+
+  <section id="beverages">
+    <h2>🍷 Beverages</h2>
+    <ul>
+      <li>Espresso – $4</li>
+      <li>Italian Soda – $5</li>
+      <li>Red Wine (Glass) – $8</li>
+      <li>White Wine (Glass) – $8</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>📍 Contact & Hours</h2>
+    <table border="2px solid">
+      <tr><th>Day</th><th>Lunch</th><th>Dinner</th></tr>
+      <tr><td>Mon–Thu</td><td>11:30AM–2:30PM</td><td>5:00PM–10:00PM</td></tr>
+      <tr><td>Fri–Sun</td><td>12:00PM–3:00PM</td><td>5:00PM–11:00PM</td></tr>
+    </table>
+    <p>123 Main Street, Little Italy<br>📞 (555) 123‑4567</p>
+  </section>
+
+  <section id="reservation">
+    <h2>✉ Make a Reservation</h2>
+    <form>
+      <label>Full Name:</label><input type="text" required><br><br>
+      <label>Phone Number:</label><input type="tel" required><br><br>
+      <label>Date:</label><input type="date" required> <br><br>
+      <label>Number of Guests:</label>
+          <select><option>1</option><option>2</option><option>3</option><option>4+</option></select><br><br>
+      <label>Special Requests:</label><textarea placeholder="Allergies, seating preference..."></textarea> <br><br>
+      <button type="submit">Reserve Table</button><br>
+    </form>
+  </section>
+   <footer><br>
+    <p>© 2025 Bella Vista Restaurant • Follow us on <a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Twitter</a></p>
+  </footer>
+</body>
+
+</html>
