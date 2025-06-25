@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .platform {
+            width: 300px;
+            height: 20px;
+            background: white;
+            border: 3px solid black;
+            position: relative;
+            margin-top: 100px;
+        }
+
+        .ball {
+            width: 20px;
+            height: 20px;
+            background: white;
+            border: 3px solid black;
+            border-radius: 50%;
+            position: relative;
+            left: 10px;
+            animation: parabolicjump 2s ease-in-out forwards;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes parabolicjump {
+            0% {
+                left: 10px;
+                top: -20px;
+            }
+
+            50% {
+                
+                top: -100px;
+                
+            }
+
+            100% {
+                left: 270px;
+                top: -20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="platform">
+        <div class="ball"></div>
+    </div>
+</body>
+
+</html>
