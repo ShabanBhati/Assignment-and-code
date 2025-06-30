@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            display: flex;
+
+            height: 40px;
+            background-color: black;
+
+
+        }
+
+        .header p {
+            font-size: x-small;
+            position: relative;
+            color: antiquewhite;
+            margin: 15px;
+            left: 5%;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: space-evenly;
+            cursor: pointer;
+            position: relative;
+            left: 150px;
+            top: -40px;
+            color: white;
+        }
+
+
+        .horizontal {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-evenly;
+            background-color: darkgray;
+
+        }
+
+        .search {
+            display: contents;
+        }
+
+        .horizontal h1 {
+            font-size: 40px;
+            color: green;
+        }
+
+        .main {
+            /* width: 300px;
+            height: 100px; */
+            justify-content: center;
+            align-items: center;
+            margin-left: 200px;
+            display: flex;
+
+        }
+
+        .cat {
+            justify-content: center;
+            align-items: center;
+            margin-left: 350px;
+            font-size: 300%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            opacity: 50%;
+
+
+        }
+
+        .catkeniche{
+             margin-left: 350px;
+             font-family:cursive;
+             margin-top: 0px;
+             opacity: 70%;
+        }
+
+        .product{
+                 justify-content: center;
+            align-items: center;
+            margin-left: 350px;
+            font-size: 300%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            opacity: 50%;
+            
+
+        }
+
+        .productkeniche{
+             margin-left: 350px;
+             font-family:cursive;
+             margin-top: 0px;
+             opacity: 70%;
+        }
+
+        .final{
+
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p> 🛒 info@company.com</p>
+        <p>📞 010-299-2887</p>
+
+    </div>
+
+    <div class="icon">
+        <p><i class="fab fa-square-facebook"></i></p>
+        <p><i class="fab fa-square-instagram"></i></p>
+        <p><i class="fab fa-square-twitter"></i></p>
+        <p><i class="fab fa-linkedin"></i></p>
+    </div>
+
+    <div class="horizontal">
+        <h1>Zay</h1>
+        <p>HOME</p>
+        <p>ABOUT</p>
+        <p>SHOP</p>
+        <p>CONTACT</p>
+        <div class="search">
+            <p><i class="fas fa-search"></i></p>
+            <p><i class="fas fa-cart-plus"></i></p>
+            <p><i class="fas fa-message"></i></p>
+        </div>
+
+    </div>
+    <br>
+
+    <div class="main">
+        <div class="text">
+            <p style="font-family:'Courier New', Courier, monospace; font-size:300%;">Proident occaecat
+
+            </p>
+            <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 22px;">Lorem
+                ipsum dolor sit amet consectetur, adipisicing elit</p>
+            <p style="font-size: larger; opacity:calc(80%);">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                <br>
+                Accusantium iusto saepe facere nulla dolor blanditiis qui, <br>
+                cupiditate in delectus corporis beatae, quo et recusandae eaque <br>
+                mollitia debitis aliquam
+                explicabo sed incidunt. Voluptatem, non.</p>
+        </div>
+
+        <div class="botal">
+            <img width="400px" src="bottle.png" alt="img">
+        </div>
+
+    </div>
+
+    <div class="cat">
+        <P><u>CATEGORIES OF THE MONTH</u></P>
+    </div>
+    <div class="catkeniche">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam animi 
+         voluptatibus <br> magnam 
+          magni saepe voluptatem? Eius .
+    </div>
+
+    <div class="ghadi">
+        <img style="cursor: pointer; margin-left: 100px;" width="1100px" src="ghadi.png" alt="img">
+    </div>
+
+    <div class="product">
+          <P><u>FEATURED PRODUCTS</u></P>
+    </div>
+
+<div class="productkeniche">
+     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam animi 
+         voluptatibus <br> magnam 
+          magni saepe voluptatem? Eius .
+
+</div>
+<br>
+<div class="task">
+    <img style="cursor: pointer; margin-left: 100px;" width="1100px" src="task.png" alt="img">
+</div>
+<br>
+<div class="final">
+    <img style="cursor: pointer; margin-left: 100px; margin: 0;" width="1400px" src="finl.png" alt="iimg">
+</div>
+
+</body>
+
+</html>
