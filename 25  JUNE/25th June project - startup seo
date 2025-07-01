@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEO Agency - Tale</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Open Sans', sans-serif; line-height: 1.6; background: #fff; }
+    header {
+      background: white;
+      color: #333;
+      padding: 10px 0;
+      font-size: 14px;
+    }
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 40px;
+      border-bottom: 1px solid #ccc;
+    }
+    .top-bar div {
+      display: flex;
+      gap: 20px;
+    }
+    .top-bar span { color: #555; }
+
+    .nav-bar {
+      background: #8204e0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      color: white;
+    }
+    .logo { font-weight: bold; font-size: 24px; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: 600;
+    }
+    .hero {
+      background: linear-gradient(to right, #8e2de2, #4a00e0);
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      padding: 80px 40px;
+    }
+    .hero-text {
+      max-width: 500px;
+    }
+    .hero-text h3 {
+      font-size: 14px;
+      background: white;
+      color: #8204e0;
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .hero-text h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+    .hero-text h1 span { color: #ffd700; }
+    .hero-text p { margin-bottom: 20px; }
+    .hero-buttons button {
+      margin-right: 10px;
+      padding: 12px 20px;
+      background: white;
+      color: #8204e0;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .section-title span { color: #8204e0; }
+
+    .services {
+      padding: 80px 40px;
+      text-align: center;
+      background: #fff;
+    }
+    .service-boxes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .service-box {
+      background: #fafafa;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .projects {
+      padding: 80px 40px;
+      text-align: center;
+      background: #f9f9f9;
+    }
+    .project-items {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .project-item {
+      background: white;
+      padding: 20px;
+      width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .about {
+      background: linear-gradient(to right, #8e2de2, #4a00e0);
+      color: white;
+      padding: 80px 40px;
+    }
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+    .about-text {
+      max-width: 400px;
+    }
+    .progress-bar {
+      background: #fff;
+      border-radius: 5px;
+      overflow: hidden;
+      margin: 10px 0;
+    }
+    .progress {
+      height: 10px;
+      background: #ffd700;
+    }
+
+    .contact {
+      background: #fff;
+      padding: 80px 40px;
+      text-align: center;
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    .contact-form button {
+      background: #8204e0;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #8204e0;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <div>
+        <span>📞 010-020-0340</span>
+        <span>📧 info@company.com</span>
+      </div>
+      <span>Sunny Isles Beach, FL 33160, USA</span>
+    </div>
+    <div class="nav-bar">
+      <div class="logo">🔷 TALE</div>
+      <nav>
+        <a href="#">HOME</a>
+        <a href="#">SERVICES</a>
+        <a href="#">PROJECTS</a>
+        <a href="#">PAGES</a>
+        <a href="#">INFOS</a>
+        <a href="#">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h3>SEO DIGITAL AGENCY</h3>
+      <h1>Dive <span>Into The SEO</span> World <span>With Tale</span></h1>
+      <p>This is the best SEO agency website template using Bootstrap v5.2.2 CSS. It is free to download provided by TemplateMo.</p>
+      <div class="hero-buttons">
+        <button>Discover More</button>
+        <button>Check Our FAQs</button>
+      </div>
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/400x300/8e2de2/ffffff?text=Hero+Image" alt="SEO Image" />
+    </div>
+  </section>
+
+  <section class="services">
+    <h2 class="section-title">We Provide <span>Different Services</span> & Features For Your Agency</h2>
+    <div class="service-boxes">
+      <div class="service-box">Discover More on current SEO Trends</div>
+      <div class="service-box">Real-Time Big Data Analysis</div>
+      <div class="service-box">Precise Data Analysis & Prediction</div>
+      <div class="service-box">SEO Marketing & Social Media</div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <h2 class="section-title">Discover Our <span>Work & Projects</span></h2>
+    <div class="project-items">
+      <div class="project-item">Mobile Friendly Website Layouts</div>
+      <div class="project-item">Digital Agency HTML Templates</div>
+      <div class="project-item">Admin Dashboard CSS Templates</div>
+      <div class="project-item">Best Responsive Website Layouts</div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about-container">
+      <div>
+        <img src="https://via.placeholder.com/300x300/ffffff/8e2de2?text=Rocket+Image" alt="Rocket" />
+      </div>
+      <div class="about-text">
+        <h2>More <span>About Us</span> & What <span>We Offer</span></h2>
+        <p>You are free to use this template for any purpose.</p>
+        <p>Marketing</p>
+        <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+        <p>Digital Media</p>
+        <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+        <p>Social Media Managing</p>
+        <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us & Get In <span>Touch</span></h2>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="text" placeholder="Your Surname" required />
+        <input type="email" placeholder="Your Email" required />
+        <input type="text" placeholder="Subject" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message Now</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2036 Tale SEO Agency. All rights reserved. | Design: TemplateMo</p>
+  </footer>
+</body>
+</html>
