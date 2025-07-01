@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multi-Level Dropdown Menu</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+      background: #eaeef2;
+    }
+
+    .navbar {
+      background-color: #3498db;
+      padding: 10px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: white;
+    }
+
+    ul.menu {
+      list-style: none;
+      display: flex;
+    }
+
+    ul.menu > li {
+      position: relative;
+    }
+
+    ul.menu > li > a {
+      display: block;
+      padding: 12px 20px;
+      background-color: #2c3e50;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    ul.menu li:hover > a {
+      background-color: #1a252f;
+    }
+
+    /* Dropdown Styles */
+    ul.submenu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #2c3e50;
+      display: none;
+      min-width: 200px;
+    }
+
+    ul.menu li:hover > ul.submenu {
+      display: block;
+    }
+
+    ul.submenu li {
+      position: relative;
+    }
+
+    ul.submenu li a {
+      display: block;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+    }
+
+    ul.submenu li:hover > a {
+      background-color: #1a252f;
+    }
+
+    /* Sub-submenu */
+    ul.submenu .submenu {
+      top: 0;
+      left: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">🛡️</div>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li>
+        <a href="#">Work ▼</a>
+        <ul class="submenu">
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Development</a></li>
+          <li>
+            <a href="#">Photography</a>
+            <ul class="submenu">
+              <li><a href="#">Nature</a></li>
+              <li><a href="#">People</a></li>
+              <li><a href="#">Pets</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Writing</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
